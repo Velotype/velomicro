@@ -1,0 +1,16 @@
+{
+    "tasks": {
+        "bundle-basic-div": "deno bundle ./test_modules/basic-div.tsx --output ./build/basic-div.js --sourcemap"
+    },
+    "nodeModulesDir": "auto",
+    "imports": {
+        "@velotype/veloserver": "jsr:@velotype/veloserver@^0.0.2",
+        "jsr:@velotype/velomicro/jsx-runtime": "../src/jsx-runtime/jsx-runtime.ts",
+        "jsr:@velotype/velomicro": "../src/jsx-runtime/jsx-runtime.ts"
+    },
+    "lint": {
+        "rules": {
+            "exclude": ["jsx-key"]
+        }
+    }
+}
