@@ -26,7 +26,7 @@ export type StylePassthroughAttrs = {
     /** A string of CSS class names to pass-through to the underlying Element of this Component */
     class?: string
     /** CSS styles to pass-through to the underlying Element of this Component */
-    style?: RenderableElements
+    style?: any
 }
 
 /**
@@ -137,7 +137,7 @@ export {h as createElement}
  * 
  * Create a fragment `<></>` (which just propagates an array of `children[]`)
  */
-export function f(_attrs: Readonly<any>, ...children:  RenderableElements[]): RenderableElements[] {
+export function f(_attrs: Readonly<any> | null, ...children:  RenderableElements[]): RenderableElements[] {
     return children
 }
 

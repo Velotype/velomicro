@@ -69,7 +69,7 @@ export const jsxs: (tag: any, attrs: any, key?: string | undefined) => Renderabl
 /**
  * Create an fragment `<></>` (which just propagates an array of children[])
  */
-export const Fragment: (_attrs: Readonly<any>, ...children: RenderableElements[]) => RenderableElements[] = f
+export const Fragment: (_attrs: Readonly<any> | null, ...children: RenderableElements[]) => RenderableElements[] = f
 
 // Export the JSX namespace for JSX type checking
 import type { JSXInternal } from "../jsx-types/jsx-types.d.ts"
