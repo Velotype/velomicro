@@ -3,7 +3,7 @@
 import { afterAll, beforeAll, describe, it } from "jsr:@std/testing/bdd"
 import { fail, assertEquals } from "jsr:@std/assert"
 
-import {App} from "jsr:@velotype/veloserver"
+import {App} from "jsr:@velotype/veloserver@^0.0.2"
 
 import { launch } from "jsr:@astral/astral"
 import type { Browser, ElementHandle, Page } from "jsr:@astral/astral"

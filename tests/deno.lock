@@ -34,7 +34,11 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@velotype/velomicro@*",
       "jsr:@velotype/veloserver@^0.0.2"
-    ]
+    ],
+    "links": {
+      "jsr:@velotype/velomicro@0.0.3": {}
+    }
   }
 }
