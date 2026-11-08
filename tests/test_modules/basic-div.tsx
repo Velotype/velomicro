@@ -1,6 +1,6 @@
 // deno-lint-ignore-file jsx-boolean-value
-import {FunctionComponent} from "jsr:@velotype/velomicro"
-import type {EmptyAttrs} from "jsr:@velotype/velomicro"
+import type {FunctionComponent} from "@velotype/velomicro"
+import type {EmptyAttrs} from "@velotype/velomicro"
 
 const BasicDivTest: FunctionComponent<EmptyAttrs> = function(_attrs: EmptyAttrs): HTMLDivElement {
     return <div>

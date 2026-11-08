@@ -2,11 +2,13 @@
   "version": "5",
   "specifiers": {
     "jsr:@astral/astral@*": "0.5.4",
+    "jsr:@astral/astral@~0.5.4": "0.5.4",
     "jsr:@deno-library/progress@^1.5.1": "1.5.1",
     "jsr:@deno/cache-dir@0.22.2": "0.22.2",
     "jsr:@deno/graph@0.86": "0.86.9",
     "jsr:@std/assert@*": "1.0.16",
     "jsr:@std/assert@^1.0.15": "1.0.16",
+    "jsr:@std/assert@^1.0.16": "1.0.16",
     "jsr:@std/async@1": "1.0.15",
     "jsr:@std/bytes@^1.0.2": "1.0.6",
     "jsr:@std/encoding@1": "1.0.11",
@@ -24,6 +26,7 @@
     "jsr:@std/path@1": "1.1.6",
     "jsr:@std/path@^1.0.8": "1.1.6",
     "jsr:@std/testing@*": "1.0.16",
+    "jsr:@std/testing@^1.0.16": "1.0.16",
     "jsr:@velotype/veloserver@^0.0.2": "0.0.2",
     "jsr:@zip-js/zip-js@^2.7.52": "2.8.8"
   },
@@ -122,5 +125,13 @@
     "@zip-js/zip-js@2.8.8": {
       "integrity": "d02be7ef8707977e714cd24e045882f0b396dbcecfcabd7b591c5cdba40e47b7"
     }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@astral/astral@~0.5.4",
+      "jsr:@std/assert@^1.0.16",
+      "jsr:@std/testing@^1.0.16",
+      "jsr:@velotype/veloserver@^0.0.2"
+    ]
   }
 }
