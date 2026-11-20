@@ -2,3 +2,4 @@ dist/
 docs/
 tests/build/
 tests/node_modules/
+.DS_Store
